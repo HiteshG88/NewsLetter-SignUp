@@ -2,7 +2,7 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const request = require('request')
 const https = require('https')
-const [api_key, list_id] = require("./api_keys")
+const { api_key, list_id } = require("./api_keys")
 
 const app = express()
 
